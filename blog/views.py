@@ -1,3 +1,11 @@
 from django.shortcuts import render
 
-# Create your views here.
+def index(request):
+    return render(request, 'blog/index.html')
+
+
+def adress(request):
+    return render(request, 'blog/factory.html')
+
+def categ(request):
+    return render(request, 'blog/categ.html')
