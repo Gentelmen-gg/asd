@@ -8,4 +8,7 @@ def adress(request):
     return render(request, 'blog/factory.html')
 
 def categ(request):
-    return render(request, 'blog/categ.html')
+    return render(request, 'blog/cate.html')
+
+def qwert(request):
+    return render(request, 'blog/qwert.html')
